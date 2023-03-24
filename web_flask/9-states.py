@@ -3,11 +3,12 @@
 script that starts a Flask web application:
 States and cities
 """
-from flask import Flask
-from flask import render_template
 from models import storage
 from models.state import State
 from models.city import City
+from flask import Flask
+from flask import render_template
+
 
 app = Flask(__name__)
 
